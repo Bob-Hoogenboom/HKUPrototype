@@ -10,6 +10,8 @@ public class PlayerInputTest : MonoBehaviour
     private Rigidbody _rigidbody;
     private PlayerInputActions _playerInputActions;
 
+
+
     private void Start()
     {
         _rigidbody = gameObject.GetComponent<Rigidbody>();
